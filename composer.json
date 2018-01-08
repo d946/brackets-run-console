@@ -1,0 +1,20 @@
+{
+    "name": "d946/consolebrackets",
+    "description": "Console test tool",
+    "type": "project",
+    "require": {
+        "symfony/console": "^4.0",
+        "d946/brackets": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Sergey Fedorov",
+            "email": "d946@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "D946\\": "src"
+        }
+    }
+}
